@@ -11,7 +11,7 @@ library(measurements)
 library(tidyverse)
 #library(janitor)
 
-source("X:/Agency_Files/Outcomes/Risk_Eval_Air_Mod/_Air_Risk_Evaluation/Staff Folders/Dorian/AQI/aircast/R/hysplit_traj.R")
+source("https://raw.githubusercontent.com/MPCA-air/hysplit/main/R/hysplit_traj.R")
 
 # Load site locations
 sites <- read_csv("X:/Agency_Files/Outcomes/Risk_Eval_Air_Mod/_Air_Risk_Evaluation/Staff folders/Dorian/AQI/MET data/Monitors and Rep Wx Stations.csv")
